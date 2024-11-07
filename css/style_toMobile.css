@@ -1,0 +1,314 @@
+@media only screen and (max-width: 430px) {
+  #navbar {
+    width: 1200px;
+    height: 200px;
+    margin: 20px 0 0 100px;
+  }
+  #navbar img {
+    width: 400px;
+  }
+  #navbar #nav_links {
+    text-align: center;
+  }
+  #navbar #nav_links a, #navbar #nav_links #darkStyleButton {
+    margin-bottom: 10px;
+    font-size: 35px;
+    padding: 40px;
+  }
+  #navbar #nav_links #darkStyleButton p {
+    font-size: 25px;
+  }
+  #navbar #nav_buttons {
+    display: flex;
+  }
+  #navbar #nav_buttons #sign_In {
+    font-size: 35px;
+    margin-right: 40px;
+  }
+  #navbar #nav_buttons #sign_Up {
+    font-size: 30px;
+  }
+  #registrated {
+    width: 700px;
+    height: 1050px;
+    left: 27%;
+  }
+  #registrated #errorField {
+    width: 570px;
+    margin-right: 90px;
+  }
+  #registrated #erorrPassword {
+    width: 570px;
+    height: 130px;
+  }
+  #registrated #correct {
+    width: 570px;
+  }
+  #registrated h1 {
+    font-size: 50px;
+  }
+  #registrated #CloseRegist {
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    left: 580px;
+    top: 65px;
+  }
+  #registrated #registForm .labelReg {
+    font-size: 35px;
+  }
+  #registrated #registForm .inputReg {
+    margin-bottom: 40px;
+    padding-left: 20px;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    font-size: 30px;
+  }
+  #registrated #registForm #SubmitRegister {
+    width: 300px;
+    height: 65px;
+    font-size: 35px;
+    margin-top: 20px;
+  }
+  #Fpage {
+    margin-top: 70px;
+    margin-left: 700px;
+    grid-template-rows: 140px 21px 60px 130px 80px 108px 150px 100px;
+  }
+  #Fpage #FpageText h1 {
+    font-size: 61px;
+  }
+  #Fpage #FpageText p {
+    font-size: 25px;
+  }
+  #Fpage #Get_started {
+    font-size: 25px;
+  }
+  #Fpage #list_icons li .txtFpage {
+    left: 100px;
+    bottom: 67px;
+    font-size: 20px;
+  }
+  #Fpage #list_icons li .UsLocSer {
+    width: 80px;
+    height: 80px;
+    font-size: 25px;
+  }
+  #totheToplink {
+    width: 180px;
+    height: 180px;
+    left: 1260px;
+    top: 2460px;
+  }
+  #totheToplink a {
+    font-size: 75px;
+  }
+  #totheToplink a:hover {
+    font-size: 85px;
+  }
+  #totheToplink a:hover p {
+    font-size: 40px;
+  }
+  #Spage {
+    margin-left: 650px;
+    grid-template-rows: 35px 100px 20px 100px 25px 140px;
+  }
+  #Spage #SpageH {
+    font-size: 44px;
+  }
+  #Spage #SpagePar {
+    font-size: 22px;
+  }
+  #Spage #SpageUl {
+    font-size: 24px;
+  }
+  #Spage #SpageUl li {
+    padding-bottom: 20px;
+  }
+  #Spage_Tpage_Shadow {
+    margin-top: 130px;
+    width: 1400px;
+  }
+  #Tpage {
+    display: grid;
+    margin-left: 650px;
+    grid-template-rows: 50px 20px 140px 665px 45px 50px 80px 665px;
+    grid-template-columns: 359px 197px 65px 122px 140px 122px 262px 275px;
+  }
+  #Tpage #TpageH {
+    font-size: 55px;
+    grid-column: 3/8;
+    padding-left: 20px;
+  }
+  #Tpage #TpagePar {
+    font-size: 24px;
+    margin-top: 30px;
+    grid-column: 2/8;
+    padding: 0;
+  }
+  #Tpage .card img {
+    width: 150px;
+    height: 200px;
+  }
+  #Tpage .card h2 {
+    font-size: 35px;
+  }
+  #Tpage .card .TpageUL {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  #Tpage .card .Select {
+    height: 60px;
+    width: 200px;
+    font-size: 24px;
+  }
+  #Tpage #freePlan {
+    grid-column: 2/5;
+  }
+  #Tpage #freePlan .TpageUL {
+    padding-bottom: 82px;
+  }
+  #Tpage #standartPlan {
+    grid-column: 6/8;
+  }
+  #Tpage #standartPlan .TpageUL {
+    padding-bottom: 33px;
+  }
+  #Tpage #premiumPlan {
+    display: inline;
+    grid-column: 4/7;
+    grid-row-start: 10;
+    margin-top: 80px;
+  }
+  #FourPage {
+    margin-left: 690px;
+  }
+  #FourPage #FourPageH {
+    text-align: center;
+    width: 450px;
+    font-size: 45px;
+  }
+  #FourPage #FourPageP {
+    margin-top: 20px;
+    text-align: center;
+    width: 700px;
+    font-size: 25px;
+  }
+  #FourPage #worldMap {
+    margin-top: 100px;
+  }
+  #FourPage #FourPageCompanys .defLogo {
+    display: none;
+  }
+  #FourPage #FourPageCompanys .colorLogo {
+    display: flex;
+  }
+  #FivPage {
+    margin-top: 60px;
+  }
+  #FivPage .text {
+    margin-left: 430px;
+  }
+  #FivPage .text .slider-h2 {
+    font-size: 40px;
+    margin-left: 50px;
+  }
+  #FivPage .text .slider-p {
+    font-size: 24px;
+  }
+  #FivPage .slider {
+    margin-left: 500px;
+  }
+  #FivPage .slider .slide .slider-content {
+    height: 300px;
+  }
+  #FivPage .slider .slide .slider-content .slide-person .persona .ava {
+    width: 90px;
+    height: 90px;
+    padding-bottom: 10px;
+  }
+  #FivPage .slider .slide .slider-content .slide-person .persona .name {
+    font-size: 27px;
+    padding-bottom: 7px;
+  }
+  #FivPage .slider .slide .slider-content .slide-person .persona .city {
+    font-size: 23px;
+  }
+  #FivPage .slider .slide .slider-content .rate p {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  #FivPage .slider .slide .slider-content .rate img {
+    width: 25px;
+    height: 25px;
+  }
+  #FivPage .slider .slide .slider-content .feedback {
+    font-size: 20px;
+  }
+  #FivPage .control-slider {
+    margin-top: 50px;
+  }
+  #FivPage .control-slider .points {
+    align-items: center;
+    margin-left: 80px;
+    width: 150px;
+    height: 60px;
+  }
+  #FivPage .control-slider .arrows {
+    width: 200px;
+  }
+  #FivPage .control-slider .arrows .arrow {
+    width: 85px;
+    height: 85px;
+  }
+  #FivPage .control-slider .arrows .arrow img {
+    width: 30px;
+    height: 30px;
+  }
+  #GraficOfHappyWhite {
+    width: 1200px;
+  }
+  #z1Block {
+    width: 1140px;
+    top: 6170px;
+    left: 210px;
+    margin-right: 100px;
+  }
+  #z1Block #z1BlockText {
+    width: 600px;
+  }
+  #z1Block #z1BlockText h1 {
+    font-size: 45px;
+  }
+  #z1Block #z1BlockText p {
+    font-size: 25px;
+  }
+  #z1Block #z1BlockButton button {
+    width: 260px;
+    height: 80px;
+    font-size: 22px;
+  }
+  #footer {
+    width: 1450px;
+  }
+  #footer #footerFirstBlock img {
+    width: 300px;
+    height: 70px;
+  }
+  #footer #footerFirstBlock #footerFirstBlockPar {
+    font-size: 25px;
+  }
+  #footer #footerFirstBlock #redCircles3 .redcirce {
+    width: 45px;
+    height: 45px;
+  }
+  #footer #footerFirstBlock #myFinalWork {
+    font-size: 20px;
+  }
+  #footer .footerUL li {
+    font-size: 28px;
+  }
+  #footer .footerUL li:first-child {
+    font-size: 35px;
+  }
+}

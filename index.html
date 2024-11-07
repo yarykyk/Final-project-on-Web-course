@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final project!</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style_toMobile.css">
+    <link rel="stylesheet" href="/css/darkStyle.css">
+    <script src="https://kit.fontawesome.com/34a3860714.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.plot.ly/plotly-2.35.2.min.js" charset="utf-8"></script>
+
+</head>
+<body>
+    <nav id="navbar">
+        <img src="images/decors/Logo.png" alt="LogoVPN">
+        <div id="nav_links">
+            <button id="darkStyleButton"><p><i class="fa-solid fa-sun"></i>Dark mode</p></button>
+            <a href="#Fpage">About</a>
+            <a href="#Spage">Features</a>
+            <a href="#Tpage">Pricing</a>
+            <a href="#FourPage">Testimonials</a>
+            <a href="#footer">Help</a>
+        </div>
+        <div id="nav_buttons">
+            <button id="sign_In"><b>Sign In</b></button>
+            <button id="sign_Up"><b>Sign Up</b></button>
+        </div>
+    </nav>
+
+    <section id="registrated">
+        <button type="button" id="CloseRegist"><i class="fa-solid fa-xmark"></i></button>
+        <h1>Registration</h1>
+        <div id="erorrPassword" class="error">
+            <h1>you enter incorect password!</h1>
+        </div>
+        <div id="errorField" class="error">
+            <h1>Not all fields are filled!</h1>
+        </div>
+        <div id="correct">
+            <h1>Hello new User!</h1>
+        </div>
+        <form id="registForm">
+            <label for="name" class="labelReg">Enter your name</label>
+            <input type="text" id="name" name="name" placeholder="Name" class="inputReg">
+
+            <label for="tel" class="labelReg">Enter your telephone number</label>
+            <input type="text" id="tel" name="tel" placeholder="telephone" value="+380" class="inputReg">
+
+            <label for="email" class="labelReg">Enter your Email</label>
+            <input type="email"  id="email" name="email" placeholder="Email" class="inputReg">
+
+            <label for="password1" class="labelReg">Create your password for this web Site</label>
+            <input type="password" name="password" id="password1" placeholder="Password" class="inputReg">
+
+            <label for="password2" class="labelReg">Repeat your password</label>
+            <input type="password" name="password2" id="password2" placeholder="Repeat password" class="inputReg">
+
+            <button type="submit" id="SubmitRegister">Submit</button>
+        </form>
+    </section>
+
+    <section id="Fpage">
+        <div id="FpageText">
+            <h1>Want anything to be easy with <b>LaslesVPN.</b></h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisici elit. Suscipit ipsa modi quidem nostrum vitae quod commodi earum architecto!</p>
+        </div>
+        <img src="images/peopleImages/Illustration 1.png" alt="people with computer">
+        <button id="Get_started"><b>Get Started</b></button>
+        <div id="line1"></div>
+        <div id="line2"></div>
+        <ul id="list_icons">
+            <li id="Us">
+                <div class="UsLocSer">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="txtFpage">
+                    <h2><b>90+</b></h2>
+                    <p>users</p>
+                </div>
+            </li>
+            <li>
+                <div class="UsLocSer">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div class="txtFpage">
+                    <h2><b>30+</b></h2>
+                    <p>Locations</p>
+                </div>
+            </li>
+            <li>
+                <div class="UsLocSer">
+                    <i class="fa-solid fa-server"></i>           
+                </div>
+                <div class="txtFpage">            
+                    <h2><b>50+</b></h2>
+                    <p>Servers</p> 
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <div id="totheToplink">
+        <a href="#navbar" id="topLink"><i class="fa-solid fa-arrow-up"></i><p>top of page</p></a>
+    </div>
+
+    <section id="Spage">
+        <img src="images/peopleImages/Illustration 2.png" alt="happy people with computer">
+        <h1 id="SpageH">
+            We provide many features You can use
+        </h1>
+        <p id="SpagePar">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae repellendus veniam perferendis explicabo, neque eum aspernatur quos.</p>
+        <ul id="SpageUl">
+            <li><span><i class="fa-solid fa-check"></i></span>Powetfull online protection.</li>
+            <li><span><i class="fa-solid fa-check"></i></span>Internet without borders.</li>
+            <li><span><i class="fa-solid fa-check"></i></span>Supercharged VPN</li>
+            <li><span><i class="fa-solid fa-check"></i></span>No specific time limits.</li>
+        </ul>
+    </section>
+    
+    <div id="Spage_Tpage_Shadow"></div>
+
+
+    <section id="Tpage">
+        <h1 id="TpageH">Choose your plan</h1>
+        <p id="TpagePar">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam tempora dolores, temporibus suscipit sapiente sunt.</p>
+        <div id="freePlan" class="card">
+            <img src="images/decors/Freebox.png" alt="box with salute">
+            <h2><b>Free Plan</b></h2>
+            <ul class="TpageUL">
+                <li><i class="fa-solid fa-check"></i>Unlimited Bandwitch</li>
+                <li><i class="fa-solid fa-check"></i>Encrypted Connection</li>
+                <li><i class="fa-solid fa-check"></i>No Traffic Logs</li>
+                <li><i class="fa-solid fa-check"></i>Works on All Devices</li>
+            </ul>
+            <h2><b>Free</b></h2>
+            <button class="Select" id="Tpagebtn1"><b>Select</b></button>
+        </div>
+        <div id="standartPlan" class="card">
+            <img src="images/decors/standartbox.png" alt="box with salute">
+            <h2><b>Standart Plan</b></h2>
+            <ul class="TpageUL">
+                <li><i class="fa-solid fa-check"></i>Unlimited Bandwitch</li>
+                <li><i class="fa-solid fa-check"></i>Encrypted Connection</li>
+                <li><i class="fa-solid fa-check"></i>No Traffic Logs</li>
+                <li><i class="fa-solid fa-check"></i>Works on All Devices</li>
+                <li><i class="fa-solid fa-check"></i>Connect Anyware</li>
+            </ul>
+            <h2><b>$9 </b> / mo</h2>
+            <button class="Select" id="Tpagebtn2" type="submit"><b>Select</b></button>
+        </div>
+        <div id="premiumPlan" class="card">
+            <img src="images/decors/Premiumbox.png" alt="box with salute">
+            <h2><b>Premium Plan</b></h2>
+            <ul class="TpageUL">
+                <li><i class="fa-solid fa-check"></i>Unlimited Bandwitch</li>
+                <li><i class="fa-solid fa-check"></i>Encrypted Connection</li>
+                <li><i class="fa-solid fa-check"></i>No Traffic Logs</li>
+                <li><i class="fa-solid fa-check"></i>Works on All Devices</li>
+                <li><i class="fa-solid fa-check"></i>Connect Anyware</li>
+                <li><i class="fa-solid fa-check"></i>Get New Features</li>
+            </ul>
+            <h2><b>$12</b> / mo</h2>
+            <button class="Select" id="Tpagebtn3" type="submit"><b>Select</b></button>
+        </div>
+    </section>
+
+    <section id="FourPage">
+        <h1 id="FourPageH">Huge Global Network of Fast VPN</h1>
+        <p id="FourPageP">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet dolorum laborum nam dolore veritatis! Facere.</p>
+        <img src="/images/decors/global_map.png" alt="Global Map" width="1060" height="538" id="worldMap">
+        <div id="FourPageCompanys">
+            <img src="/images/logos/netflixDef.png" alt="netflix logo" class="defLogo" id="netflix">
+            <img src="/images/logos/netflixColor.com.png" alt="netflix red logo" width="200" height="114" class="colorLogo" id="netflixColor">
+
+            <img src="/images/logos/redditDef.png" alt="reddit logo" class="defLogo" id="reddit">
+            <img src="/images/logos/redditColor.png" alt="color reddit logo" width="157" height="52" class="colorLogo" id="redditColor">
+
+            <img src="/images/logos/discordDef.png" alt="discord logo" class="defLogo" id="discord">
+            <img src="/images/logos/discordColor.png" alt="color discord logo" width="188" height="64" class="colorLogo" id="discordColor">
+
+            <img src="/images/logos/spotifyDef.png" alt="spotify logo" class="defLogo" id="spotify">
+            <img src="/images/logos/spotifyColor.png" alt="color spotify logo" width="172" height="52" class="colorLogo" id="spotifyColor">
+        </div>
+    </section>
+
+    <section id="FivPage">
+        <div class="text">
+            <h2 class="slider-h2">Trusted by Thousands of Happy Customer</h2>
+            <p class="slider-p">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque earum, maiores excepturi asperiores quaerat quasi!
+            </p>
+        </div>
+        <div class="slider">
+            <div class="slide slide1">
+                <div class="slider-content">
+                    <div class="slide-person">
+                        <div class="persona">
+                            <img src="/images/avatars/man1.png" alt="man1" class="ava">
+                            <div class="information">
+                                <p class="per name"><b>Bob Bobins</b></p>
+                                <p class="per city">Warsaw, Poland</p>
+                            </div>
+                        </div>
+                        <div class="rate">
+                            <img src="/images/decors/star.svg" alt="star">
+                            <p class="per">4.7</p>
+                        </div>
+                    </div>
+                    <div class="feedback">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi neque et enim a omnis veritatis reiciendis minima, adipisci earum maxime.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="slide slide2">
+                <div class="slider-content">
+                    <div class="slide-person">
+                        <div class="persona">
+                            <img src="/images/avatars/man2.png" alt="man2" class="ava">
+                            <div class="information">
+                                <p class="per name"><b>Bernard Layrinty</b></p>
+                                <p class="per city">Shanxi, China</p>
+                            </div>
+                        </div>
+                        <div class="rate">
+                            <img src="/images/decors/star.svg" alt="star">
+                            <p class="per">4.5</p>
+                        </div>
+                    </div>
+                    <div class="feedback">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi pariatur, laborum maiores dolorum molestiae natus.
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="slide slide3">
+                <div class="slider-content">
+                    <div class="slide-person">
+                        <div class="persona">
+                            <img src="/images/avatars/woman.png" alt="women" class="ava">
+                            <div class="information">
+                                <p class="per name"><b>Iryna Edvans</b></p>
+                                <p class="per city">Seoul, South Korea</p>
+                            </div>
+                        </div>
+                        <div class="rate">
+                            <img src="/images/decors/star.svg" alt="star">
+                            <p class="per">4.8</p>
+                        </div>
+                    </div>
+                    <div class="feedback">
+                        <p> 
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, quibusdam libero! Facilis nihil explicabo tempora at quas quae eius! Culpa ea impedit provident quisquam nam architecto similique cum vero praesentium.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="control-slider">
+            <div class="points">
+                <button class="point" id="point1"></button>
+                <button class="point" id="point2"></button>
+                <button class="point" id="point3"></button>
+            </div>
+            <div class="arrows">
+                <button class="arrow" id="arrow-left">
+                    <img src="/images/decors/arrowRedLeft.png" alt="ArLeRe" class="arrow-red-left">
+                    <img src="/images/decors/arrowWhiteLeft.png" alt="ArLeWh" class="arrow-white-left">
+                </button>
+                <button class="arrow" id="arrow-right">
+                    <img src="/images/decors/arrowRedRight.png" alt="ArRiRe" class="arrow-red-right">
+                    <img src="/images/decors/arrowWhiteRight.png" alt="ArRiWh" class="arrow-white-right">
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <div id="GraficOfHappyWhite" style="width: 100%;"></div>
+
+
+
+    <section id="z1Block">
+        <div id="z1BlockText">
+            <h1><b>Subscribe Now for Get Special Features!</b></h1>
+            <p>Let's subscribe with us and find the fun.</p>    
+        </div>
+        <div id="z1BlockButton">
+            <button id="SubscribeNowButton"><b>Subscribe Now</b></button>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div id="footerFirstBlock"> 
+            <img src="/images/decors/Logo.png" alt="logo of company">
+            <p id="footerFirstBlockPar"><b>LaslesVPN</b> is a private virtual network that has unique features and has high security.</p>
+            <div id="redCircles3"> 
+                <div class="redcirce"></div>
+                <div class="redcirce"></div>
+                <div class="redcirce"></div>
+            </div>
+            <p id="myFinalWork">&copy;2024myFinal<b>Work</b></p>
+        </div>
+        <div class="emptyBlock"></div>
+        <div id="footerSecondBlock">
+            <ul id="footerFirstUl" class="footerUL">
+                <li><b>Product</b></li>
+                <li><a href="#footer">Download</a></li>
+                <li><a href="#footer">Pricing</a></li>
+                <li><a href="#footer">Location</a></li>
+                <li><a href="#footer">Server</a></li>
+                <li><a href="#footer">Countries</a></li>
+                <li><a href="#footer">Blog</a></li>
+            </ul>
+        </div>
+        <div id="footerThirdBlock">
+            <ul id="footerSecondUl" class="footerUL">
+                <li><b>Engage</b></li>
+                <li><a href="#footer">LaslesVPN</a></li>
+                <li><a href="#footer">FAQ</a></li>
+                <li><a href="#footer">Tutorials</a></li>
+                <li><a href="#footer">About Us</a></li>
+                <li><a href="#footer">Privacy Policy</a></li>
+                <li><a href="#footer">Terms of Service</a></li>
+            </ul>
+        </div>
+        <div id="footerFourthPage">
+            <ul id="footerThirdUl" class="footerUL">
+                <li><b>Earn Money</b></li>
+                <li><a href="#footer">LaslesVPN</a></li>
+                <li><a href="#footer">FAQ</a></li>
+                <li><a href="#footer">Tutorials</a></li>
+                <li><a href="#footer">About Us</a></li>
+                <li><a href="#footer">Privacy Policy</a></li>
+                <li><a href="#footer">Terms of Service</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+.dark {
+  background-color: rgb(26, 26, 27);
+  color: #fff;
+}
+.dark #darkStyleButton {
+  border-radius: 40px;
+}
+.dark #registrated h1 {
+  color: black;
+}
+.dark #registrated #registForm .labelReg {
+  color: black;
+}

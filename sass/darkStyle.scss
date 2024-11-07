@@ -1,0 +1,18 @@
+$darkbc: rgb(26, 26, 27);
+.dark{
+    background-color: $darkbc;
+    color: #fff;
+    #darkStyleButton{
+        border-radius: 40px;
+    }
+    #registrated{
+        h1{
+            color: black;
+        }
+        #registForm{
+            .labelReg{
+                color: black;
+            }
+        }
+    }
+}   

@@ -1,0 +1,356 @@
+$redColor: #F53838;
+$GrayWord: #4F5665;
+@media only screen and  (max-width: 430px){
+    #navbar{
+        width: 1200px;
+        height: 200px;
+        margin: 20px 0 0 100px;
+        img{
+            width: 400px;
+        }
+        #nav_links{
+            text-align: center;
+            a, #darkStyleButton{
+                margin-bottom: 10px;
+                font-size: 35px;
+                padding: 40px;
+            }
+            #darkStyleButton{
+                p{
+                font-size: 25px;
+
+                }
+            }
+        }
+        #nav_buttons{
+            display: flex;
+            #sign_In{
+                font-size: 35px;
+                margin-right: 40px;
+            }
+            #sign_Up{
+                font-size: 30px;
+            }
+        }
+    }
+    #registrated{
+        width: 700px;
+        height: 1050px;
+        left: 27%;
+        #errorField{
+            width: 570px;
+            margin-right: 90px;
+        }
+        #erorrPassword{
+            width: 570px;
+            height: 130px;
+        }
+        #correct{
+            width: 570px;
+            
+        }
+        h1{
+            font-size: 50px;
+        }
+        #CloseRegist{
+            width: 60px;
+            height: 60px;
+            font-size: 30px;
+            left: 580px;
+            top: 65px;
+        }
+        #registForm{
+            .labelReg{
+                font-size: 35px;
+            }
+            .inputReg{
+                margin-bottom: 40px;
+                padding-left: 20px;
+                padding-bottom: 14px;
+                padding-top: 14px;
+                font-size: 30px;
+            }
+            #SubmitRegister{
+                width: 300px;
+                height: 65px;
+                font-size: 35px;
+                margin-top: 20px;
+            }
+        }
+    }
+    #Fpage{
+        margin-top:70px;
+        margin-left: 700px;
+        grid-template-rows: 140px 21px 60px 130px 80px 108px 150px 100px;
+        #FpageText{
+            h1{
+                font-size: 61px;
+            }
+            p{
+                font-size: 25px;
+            }
+        }
+        #Get_started{
+            font-size: 25px;
+        }
+        #list_icons{
+            li{
+                .txtFpage{
+                    left: 100px;
+                    bottom: 67px;
+                    font-size: 20px;
+                }
+                .UsLocSer{
+                    width: 80px;
+                    height: 80px;
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+
+    #totheToplink{
+        width: 180px;
+        height: 180px;
+        left: 1260px;
+        top: 2460px;
+        a{
+            font-size: 75px;
+        }
+        a:hover{
+            font-size: 85px;
+            p{
+                font-size: 40px;
+            }
+        }
+    }
+    #Spage{
+        margin-left: 650px;
+        grid-template-rows: 35px 100px 20px 100px 25px 140px;
+        #SpageH{
+            font-size: 44px;
+        }
+        #SpagePar{
+            font-size: 22px;
+        }
+        #SpageUl{
+            font-size: 24px;
+            li{
+                padding-bottom: 20px;
+            }
+        }
+    }
+
+    #Spage_Tpage_Shadow{
+        margin-top: 130px;
+        width: 1400px;
+    }
+
+    #Tpage{
+        display: grid;
+        margin-left: 650px;
+        grid-template-rows: 50px 20px 140px 665px 45px 50px 80px 665px;
+        grid-template-columns: 359px 197px 65px 122px 140px 122px 262px 275px;
+        #TpageH{
+            font-size: 55px;
+            grid-column: 3/8;
+            padding-left: 20px;
+        }
+        #TpagePar{
+            font-size: 24px;
+            margin-top: 30px;
+            grid-column: 2/8;
+            padding: 0;
+        }
+        .card{
+            img{
+                width: 150px;
+                height: 200px;
+            }
+            h2{
+                font-size: 35px;
+            }
+            .TpageUL{
+                font-size: 20px;
+                font-weight: 600;
+            }
+            .Select{
+                height: 60px;
+                width: 200px;
+                font-size: 24px;
+            }
+        }
+        #freePlan{
+            grid-column: 2/5;
+            .TpageUL{
+                padding-bottom: 82px;
+            }
+        }
+        #standartPlan{
+            grid-column: 6/8;
+            .TpageUL{
+                padding-bottom: 33px;
+            }
+        }
+        #premiumPlan{
+            display: inline;
+            grid-column: 4/7;
+            grid-row-start: 10;
+            margin-top: 80px;
+        }
+    }
+
+    #FourPage{
+        margin-left: 690px;
+        #FourPageH{
+            text-align: center;
+            width: 450px;
+            font-size: 45px;
+        }
+        #FourPageP{
+            margin-top: 20px;
+            text-align: center;
+            width: 700px;
+            font-size: 25px;
+        }
+        #worldMap{
+            margin-top: 100px;
+        }
+        #FourPageCompanys{
+            .defLogo{
+                display: none;
+            }
+            .colorLogo{
+                display: flex;
+            }
+        }
+    }
+    #FivPage{
+        margin-top: 60px;
+        .text{
+            margin-left: 430px;
+            .slider-h2{
+                font-size: 40px;
+                margin-left: 50px;
+            }
+            .slider-p{
+                font-size: 24px;
+            }
+        }
+        .slider{
+            margin-left: 500px;
+            .slide{
+                .slider-content{
+                    height: 300px;
+                    .slide-person{
+                        .persona{
+                            .ava{
+                                width: 90px;
+                                height: 90px;
+                                padding-bottom: 10px;
+                            }
+                            .name{
+                                font-size: 27px;
+                                padding-bottom: 7px;
+                            }
+                            .city{
+                                font-size: 23px;
+                            }
+                            }
+                        }
+                        .rate{
+                            p{
+                                font-size: 20px;
+                                font-weight: 600;
+                            }
+                            img{
+                                width: 25px;
+                                height: 25px;
+                            }
+                    }
+                    .feedback{
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+        .control-slider{
+            margin-top: 50px;
+            .points{
+                align-items: center;
+                margin-left: 80px;
+                width: 150px;
+                height: 60px;
+            }
+            .arrows{
+                width: 200px;
+                .arrow{
+                    width: 85px;
+                    height: 85px;
+                    img{
+                        width: 30px;
+                        height: 30px;
+                    }
+                }
+            }
+        }
+    }
+
+    #GraficOfHappyWhite{
+        width: 1200px;
+    }
+    #z1Block{
+        width: 1140px;
+        top: 6170px;
+        left: 210px;
+        margin-right: 100px;
+        #z1BlockText{
+            width: 600px;
+            h1{
+                font-size: 45px;
+            }
+            p{
+                font-size: 25px;
+            }
+        }
+        #z1BlockButton{
+            button{
+                width: 260px;
+                height: 80px;
+                font-size: 22px;
+            }
+
+        }
+    }
+
+
+    #footer{
+        width: 1450px;
+        #footerFirstBlock{
+            img{
+                width: 300px;
+                height: 70px;
+            }
+            #footerFirstBlockPar{
+                font-size: 25px;
+            }
+            #redCircles3{
+                .redcirce{
+                    width: 45px;
+                    height: 45px;
+                }
+            }
+            #myFinalWork{
+                font-size: 20px;
+            }
+        }
+        .footerUL{
+            li{
+                font-size: 28px
+            }
+            li:first-child{
+                font-size: 35px;
+            }
+        }
+    }
+}
